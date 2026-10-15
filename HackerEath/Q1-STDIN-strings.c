@@ -22,7 +22,7 @@ int main(){
 	int num;
 	char str[15];
 	scanf("%d", &num);              	       
-	printf("%d\n", num * 2);
 	scanf("%s", &str);
+    printf("%d\n", num * 2);
 	printf("%s", str);
 }
