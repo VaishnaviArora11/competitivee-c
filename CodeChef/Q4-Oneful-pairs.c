@@ -24,7 +24,6 @@
 //   (1,53) is not a Oneful Pair, since 1 + 53 + (1 ⋅ 53)  != 111.
 
 #include <stdio.h>
-
 int main() {
     int a, b;
     scanf("%d %d", &a, &b);
