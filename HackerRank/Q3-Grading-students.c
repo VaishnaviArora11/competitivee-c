@@ -59,17 +59,15 @@ int gradingStudents(int grades_count, int grades) {
             actualgrades = grades;
         }
     }
-    grades_count--;
     return actualgrades;
 }
-
 int main(){
-    int grades_count, grades;
-    scanf("%d", &grades_count);
-    while (grades_count > 0){
-        printf("%d", gradingStudents(grades_count, grades));
-        printf("\n");
+    int gradescount, grades;
+    scanf("%d", &gradescount);
+    while (gradescount > 0){
         scanf("%d", &grades);
-        grades_count--;
+        printf("%d", gradingStudents(gradescount, grades));
+        printf("\n");
+        gradescount--;
     }
 }
